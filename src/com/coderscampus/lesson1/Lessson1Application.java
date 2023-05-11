@@ -3,11 +3,11 @@ package com.coderscampus.lesson1;
 public class Lessson1Application {
 
 	public static void main(String[] args) {
-		PhysicsTeacher physicsTeacher = new PhysicsTeacher();
+		Teacher physicsTeacher = new PhysicsTeacher();
 		System.out.println("Physics Teacher:");
 		System.out.println("Required Classes: " + physicsTeacher.getClasses());
 		System.out.println("Required LOE: " + physicsTeacher.getLevelOfEducation());
-		physicsTeacher.teach("Mary");
+		physicsTeacher.teach("Mary", 15);
 		System.out.println("------");
 		
 		
@@ -24,7 +24,7 @@ public class Lessson1Application {
 		System.out.println("Required LOE: " + quantumPhysicsTeacher.getLevelOfEducation());
 		quantumPhysicsTeacher.teach();
 		System.out.println("------");
-		// New comment
+
 		
 		
 		
