@@ -12,8 +12,12 @@ public class Teacher {
 		System.out.println("Hello. My name is " + teacherName + ", I'm a teacher that teaches students");
 	}
 	
-	public void teach (String teacherName, Integer numStudents) {
-		System.out.println("Hello. My name is " + teacherName + ", I'm a teacher that teaches " + numStudents + " students");
+	public void teach (String teacherName, int numStudents) {
+		System.out.println("Hello. My name is " + teacherName + ". I'm a teacher that teaches " + numStudents + " students");
+	}
+	
+	public void teach (String teacherName, String schoolName, int numStudents) {
+		System.out.println("Hello. My name is " + teacherName + " and I teach at " + schoolName + ". I'm a teacher that teaches " + numStudents + " students");
 	}
 
 	// constructor

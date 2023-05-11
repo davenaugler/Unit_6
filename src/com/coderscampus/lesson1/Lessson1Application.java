@@ -11,14 +11,14 @@ public class Lessson1Application {
 		System.out.println("------");
 		
 		
-		CompSciTeacher compSciTeacher = new CompSciTeacher();
+		Teacher compSciTeacher = new CompSciTeacher();
 		System.out.println("CompSci Teacher:");
 		System.out.println("Required Classes: " + compSciTeacher.getClasses());
 		System.out.println("Required LOE: " + compSciTeacher.getLevelOfEducation());
-		compSciTeacher.teach();
+		compSciTeacher.teach("Dave", "BSU", 21);
 		System.out.println("------");
 		
-		QuantumPhysicsTeacher quantumPhysicsTeacher = new QuantumPhysicsTeacher();
+		Teacher quantumPhysicsTeacher = new QuantumPhysicsTeacher();
 		System.out.println("QuantumPhysicsTeacher:");
 		System.out.println("Required Classes: " + quantumPhysicsTeacher.getClasses());
 		System.out.println("Required LOE: " + quantumPhysicsTeacher.getLevelOfEducation());
