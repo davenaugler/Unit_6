@@ -24,7 +24,7 @@ public class Lessson1Application {
 		System.out.println("Required LOE: " + quantumPhysicsTeacher.getLevelOfEducation());
 		quantumPhysicsTeacher.teach();
 		System.out.println("------");
-		
+		// New comment
 		
 		
 		
