@@ -13,5 +13,10 @@ public class PhysicsTeacher extends Teacher {
 	public void teach() {
 		System.out.println("I'm a physics teacher and I'm now teaching physics");
 	}
+	
+	// Getting casted
+	public void teach(String teacherName) {
+		System.out.println("I'm a physics teaher called " + teacherName + " and I'm now teaching physics");
+	}
 
 }

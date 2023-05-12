@@ -3,11 +3,20 @@ package com.coderscampus.lesson1;
 public class Lessson1Application {
 
 	public static void main(String[] args) {
+		
+		// Access modifiers in Java are: public, protected, package, private
 		Teacher physicsTeacher = new PhysicsTeacher();
+		
+		// This is an alternative way of casting and more verbose
+		// casting on two lines
+//		PhysicsTeacher castedPhysicsTeacher = (PhysicsTeacher)physicsTeacher;
+//		castedPhysicsTeacher.teach("Mary");
+		
 		System.out.println("Physics Teacher:");
 		System.out.println("Required Classes: " + physicsTeacher.getClasses());
 		System.out.println("Required LOE: " + physicsTeacher.getLevelOfEducation());
-		physicsTeacher.teach("Mary", 15);
+		// casting on one line
+		((PhysicsTeacher)physicsTeacher).teach("Dave");;
 		System.out.println("------");
 		
 		

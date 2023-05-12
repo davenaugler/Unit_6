@@ -8,9 +8,9 @@ public class Teacher {
 		System.out.println("I'm a teacher and I'm now teaching");
 	}
 
-	public void teach(String teacherName) {
-		System.out.println("Hello. My name is " + teacherName + ", I'm a teacher that teaches students");
-	}
+//	public void teach(String teacherName) {
+//		System.out.println("Hello. My name is " + teacherName + ", I'm a teacher that teaches students");
+//	}
 
 	public void teach(String teacherName, int numStudents) {
 		System.out.println(
