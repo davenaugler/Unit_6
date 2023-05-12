@@ -7,17 +7,19 @@ public class Teacher {
 	public void teach() {
 		System.out.println("I'm a teacher and I'm now teaching");
 	}
-	
-	public void teach (String teacherName) {
+
+	public void teach(String teacherName) {
 		System.out.println("Hello. My name is " + teacherName + ", I'm a teacher that teaches students");
 	}
-	
-	public void teach (String teacherName, int numStudents) {
-		System.out.println("Hello. My name is " + teacherName + ". I'm a teacher that teaches " + numStudents + " students");
+
+	public void teach(String teacherName, int numStudents) {
+		System.out.println(
+				"Hello. My name is " + teacherName + ". I'm a teacher that teaches " + numStudents + " students");
 	}
-	
-	public void teach (String teacherName, String schoolName, int numStudents) {
-		System.out.println("Hello. My name is " + teacherName + " and I teach at " + schoolName + ". I'm a teacher that teaches " + numStudents + " students");
+
+	public void teach(String teacherName, String schoolName, int numStudents) {
+		System.out.println("Hello. My name is " + teacherName + " and I teach at " + schoolName
+				+ ". I'm a teacher that teaches " + numStudents + " students");
 	}
 
 	// constructor
@@ -26,7 +28,6 @@ public class Teacher {
 		this.classes = "No classes assigned";
 		this.levelOfEducation = "No education assigned";
 	}
-	
 
 	public String getClasses() {
 		return classes;
