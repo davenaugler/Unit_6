@@ -1,4 +1,6 @@
-package com.coderscampus.lesson1;
+package com.coderscampus.lesson1.compsci;
+
+import com.coderscampus.lesson1.Teacher;
 
 //inheritance from Teacher class using 'extends'
 public class CompSciTeacher extends Teacher {
@@ -8,10 +10,6 @@ public class CompSciTeacher extends Teacher {
 		System.out.println("Inside the CompSciTeacher constructor");
 		this.setClasses("COMP 101, COMP 201");
 		this.setLevelOfEducation("Bachelor of Science");
-	}
-	
-	public void teach () {
-		System.out.println("I am a compsci teacher and I'm now teaching Computer Science");
 	}
 	
 }

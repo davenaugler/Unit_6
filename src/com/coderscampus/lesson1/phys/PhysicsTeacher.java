@@ -1,4 +1,6 @@
-package com.coderscampus.lesson1;
+package com.coderscampus.lesson1.phys;
+
+import com.coderscampus.lesson1.Teacher;
 
 // inheritance from Teacher class using 'extends'
 public class PhysicsTeacher extends Teacher {
