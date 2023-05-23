@@ -26,6 +26,8 @@ public class WrapperExampleApplication {
 		Integer, a double to a Double, and so on. If the conversion goes
 		the other way, this is called unboxing.
 		**/
+//		primitiveInt = new Integer(9);
+		primitiveInt = Integer.valueOf(9); // un-boxing
 		
 		String someNumber = "123";
 		String someOtherNumber = "456";
